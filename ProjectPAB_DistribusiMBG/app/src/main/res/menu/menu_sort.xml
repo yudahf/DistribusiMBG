@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sort_tanggal" android:title="Tanggal Terlama"/>
+    <item android:id="@+id/sort_tanggal_terbaru" android:title="Tanggal Terbaru"/>
+    <item android:id="@+id/sort_status" android:title="Status"/>
+    <item android:id="@+id/sort_nama" android:title="Nama Sekolah"/>
+</menu>

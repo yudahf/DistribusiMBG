@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectpab_distribusimbg">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectPAB_DistribusiMBG"
+        tools:targetApi="31">
+        <activity
+            android:name=".TambahStok"
+            android:exported="false" />
+        <activity
+            android:name=".KelolaStok"
+            android:exported="false" />
+        <activity
+            android:name=".VerifikasiPengiriman"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardKepalaGudang"
+            android:exported="false" />
+        <activity
+            android:name=".Statistik"
+            android:exported="false" />
+        <activity
+            android:name=".EditPengiriman"
+            android:exported="false" />
+        <activity
+            android:name=".kelola_akun"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard_admin"
+            android:exported="false" />
+        <activity
+            android:name=".KepalaDistribusiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahAkun"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_riwayat"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_dalam_proses"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_jadwal_aktif"
+            android:exported="false" />
+        <activity
+            android:name=".DataSekolah"
+            android:exported="false" />
+        <activity
+            android:name=".EditAkun"
+            android:exported="false" />
+        <activity
+            android:name=".EditSekolah"
+            android:exported="false" />
+        <activity
+            android:name=".TambahSekolah"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalPengiriman"
+            android:exported="false" />
+        <activity
+            android:name=".data.JadwalPengiriman"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".LandingPage"
+            android:exported="false" />
+    </application>
+
+</manifest>

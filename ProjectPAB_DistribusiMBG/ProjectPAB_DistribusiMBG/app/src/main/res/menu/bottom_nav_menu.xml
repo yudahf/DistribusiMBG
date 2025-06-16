@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_jadwal"
+        android:icon="@drawable/ic_jadwal"
+        android:title="Jadwal Aktif" />
+    <item
+        android:id="@+id/nav_proses"
+        android:icon="@drawable/ic_proses"
+        android:title="Dalam Proses" />
+    <item
+        android:id="@+id/nav_riwayat"
+        android:icon="@drawable/ic_riwayat"
+        android:title="Riwayat" />
+</menu>

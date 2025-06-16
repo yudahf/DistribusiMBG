@@ -1,0 +1,12 @@
+<!-- res/menu/menu_sort.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_status"
+        android:title="Status" />
+    <item
+        android:id="@+id/sort_sekolah_A"
+        android:title="Nama Sekolah (A-Z)" />
+    <item
+        android:id="@+id/sort_sekolah_B"
+        android:title="Nama Sekolah (Z-A)" />
+</menu>

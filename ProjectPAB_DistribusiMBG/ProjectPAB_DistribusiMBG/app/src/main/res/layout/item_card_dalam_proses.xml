@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_card_border"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="SMKN 5 Kuningan"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Baris ikon dan teks -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:weightSum="3">
+
+        <!-- Tanggal -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start">
+
+            <ImageView
+                android:src="@drawable/ic_calendar"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp"
+                android:contentDescription="Icon Kalender" />
+
+            <TextView
+                android:id="@+id/date"
+                android:text="20/12/2025"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Jam -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center">
+
+            <ImageView
+                android:src="@drawable/ic_clock"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp"
+                android:contentDescription="Icon Jam" />
+
+            <TextView
+                android:id="@+id/time"
+                android:text="09.00 WIB"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Jumlah Paket -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end">
+
+            <ImageView
+                android:src="@drawable/ic_package"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp"
+                android:contentDescription="Icon Paket" />
+
+            <TextView
+                android:id="@+id/packageCount"
+                android:text="25 Paket"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMarkComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tandai Jika Selesai"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/customToolbar"
+        layout="@layout/navbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan untuk verifikasi pengiriman barang dari yang telah mengajukan permintaan."
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/tvTotalStok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Stok Saat Ini: 0"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#0288D1"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutSort"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="end"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/textSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urutkan Berdasarkan:"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:layout_marginEnd="10dp" />
+
+        <ImageView
+            android:id="@+id/btnSort"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_sort"
+            android:contentDescription="Sort"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewVerifikasi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+</LinearLayout>

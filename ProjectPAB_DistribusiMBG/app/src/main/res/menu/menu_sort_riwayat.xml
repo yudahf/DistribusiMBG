@@ -1,0 +1,18 @@
+<!-- res/menu/menu_sort.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_tanggal_terbaru"
+        android:title="Tanggal Terbaru" />
+    <item
+        android:id="@+id/sort_tanggal_terlama"
+        android:title="Tanggal Terlama" />
+    <item
+        android:id="@+id/sort_nama_sekolah"
+        android:title="Nama Sekolah (A-Z)" />
+    <item
+        android:id="@+id/sort_jumlah_paket"
+        android:title="Jumlah Paket Terbanyak" />
+    <item
+        android:id="@+id/sort_jumlah_paket_terkecil"
+        android:title="Jumlah Paket Terkecil" />
+</menu>

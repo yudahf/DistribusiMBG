@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectpab_distribusimbg_teori">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectPAB_DistribusiMBG"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.TambahStok"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.KelolaStok"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.VerifikasiPengiriman"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.DashboardKepalaGudang"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.Statistik"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.EditPengiriman"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.kelola_akun"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.dashboard_admin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.KepalaDistribusiActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.TambahAkun"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.fragment_riwayat"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.fragment_dalam_proses"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.fragment_jadwal_aktif"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.DataSekolah"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.EditAkun"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.EditSekolah"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.TambahSekolah"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.JadwalPengiriman"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectpab_distribusimbg_teori.LandingPage"
+            android:exported="false" />
+    </application>
+
+</manifest>

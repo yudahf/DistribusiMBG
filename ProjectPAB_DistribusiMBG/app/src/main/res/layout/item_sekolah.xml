@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@drawable/bg_card_borderbiru"
+    android:gravity="center_vertical">
+
+    <!-- Kiri: Informasi sekolah -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNamaSekolah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Nama Sekolah" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ic_user"
+                android:layout_marginEnd="4dp"
+                android:contentDescription="Icon Operator"
+                app:tint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tvNamaOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                tools:text="Nama Operator" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Kanan: Edit + Status -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="8dp">
+
+        <!-- Tombol Edit -->
+        <ImageView
+            android:id="@+id/btnEdit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_edit"
+            android:layout_gravity="end"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Edit Akun"
+            app:tint="@android:color/white" />
+
+        <!-- Toggle Status -->
+        <LinearLayout
+            android:id="@+id/layoutToggleStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aktif"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginEnd="6dp" />
+
+            <ImageView
+                android:id="@+id/btnToggleStatus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_on"
+                android:contentDescription="Toggle Status Sekolah" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

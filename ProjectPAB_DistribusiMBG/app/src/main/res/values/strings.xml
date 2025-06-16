@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Distribusi MBG</string>
+    <string name="selamat_datang_di_aplikasi_ndistribusi_makan_bergizi_gratis">Selamat Datang Di Aplikasi\nDistribusi Makan Bergizi Gratis</string>
+    <string name="password">Password</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="jadwal_aktif_pengiriman">Jadwal Aktif Pengiriman</string>
+    <string name="jadwal_aktif">Jadwal Aktif</string>
+</resources>
